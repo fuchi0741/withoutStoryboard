@@ -17,6 +17,7 @@
 		C57F3C8A25C95682001E2B10 /* SampleTableViewWithoutStoryboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57F3C8925C95682001E2B10 /* SampleTableViewWithoutStoryboardUITests.swift */; };
 		C57F3C9E25C9578F001E2B10 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57F3C9D25C9578F001E2B10 /* MainTableViewController.swift */; };
 		C57F3CAC25CAA9BF001E2B10 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57F3CAB25CAA9BF001E2B10 /* MainTableViewCell.swift */; };
+		C57F3CB425CACB31001E2B10 /* PlayerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57F3CB325CACB31001E2B10 /* PlayerDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		C57F3C8B25C95682001E2B10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C57F3C9D25C9578F001E2B10 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 		C57F3CAB25CAA9BF001E2B10 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		C57F3CB325CACB31001E2B10 /* PlayerDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				C57F3C7525C95682001E2B10 /* Info.plist */,
 				C57F3C9D25C9578F001E2B10 /* MainTableViewController.swift */,
 				C57F3CAB25CAA9BF001E2B10 /* MainTableViewCell.swift */,
+				C57F3CB325CACB31001E2B10 /* PlayerDetailViewController.swift */,
 			);
 			path = SampleTableViewWithoutStoryboard;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 			files = (
 				C57F3C9E25C9578F001E2B10 /* MainTableViewController.swift in Sources */,
 				C57F3C6C25C95681001E2B10 /* ViewController.swift in Sources */,
+				C57F3CB425CACB31001E2B10 /* PlayerDetailViewController.swift in Sources */,
 				C57F3C6825C95681001E2B10 /* AppDelegate.swift in Sources */,
 				C57F3C6A25C95681001E2B10 /* SceneDelegate.swift in Sources */,
 				C57F3CAC25CAA9BF001E2B10 /* MainTableViewCell.swift in Sources */,

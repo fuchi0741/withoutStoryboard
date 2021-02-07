@@ -100,6 +100,21 @@ extension MainTableViewController {
         cell.playerImageView.image = player.image
         return cell
     }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let vc = PlayerDetailViewController()
+        vc.player = players[indexPath.section][indexPath.row]
+        
+        var genetation = "2000s"
+        if indexPath.section == 1 {
+            genetation = "2010s"
+        } else if indexPath.section == 2 {
+            genetation = "2020s"
+        }
+        
+        vc.generationLabel.text = genetation
+        navigationController?.pushViewController(vc, animated: true)
+    }
 }
 
 /// Modelクラス
